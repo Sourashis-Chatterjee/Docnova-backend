@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     'https://docnova.vercel.app',       // user frontend
-    'https://admin-docnova.vercel.app'  // admin panel
+     'https://docnova-admin.vercel.app/' // admin panel
   ],
   credentials: true
 }));
