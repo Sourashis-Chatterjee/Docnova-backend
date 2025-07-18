@@ -17,14 +17,14 @@ connectCloudinary();
 
 //middlewares
 app.use(express.json());
-//app.use(cors());
-app.use(cors({
-  origin: [
-    'https://docnova.vercel.app',       // user frontend
-     'https://docnova-admin.vercel.app/' // admin panel
-  ],
-  credentials: true
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: [
+//     'https://docnova.vercel.app',       // user frontend
+//      'https://docnova-admin.vercel.app/' // admin panel
+//   ],
+//   credentials: true
+// }));
 
 
 //api endpoints
